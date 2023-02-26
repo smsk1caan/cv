@@ -11,18 +11,17 @@ body{
 }
 .menu{
 	background:#262626;
-	height: 100vh;
+	height: 170vh;
 	width: 20%;
 	float: left;
 }
 .menusag{
-	background: #0015FF;
 	width: 50%;
 	height: 500px;
 	margin-left: 35%;
 	margin-right: auto;
 	position: absolute;
-	top: 6%;
+	top: 1%;
 }
 .sari img{
 	height: auto;
@@ -40,6 +39,10 @@ body{
 	clear: both;
 	
 }
+.k1 h2{
+	color: rgb(255, 174, 0);
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
 .k1{
 
 }
@@ -53,9 +56,23 @@ body{
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 180%;
 	clear: both;
+	color: white;
 }
+
+
 @media (max-width:768px){
 	.k1 p{
 		font-size: 15px;
 	}
+}
+h2{
+	text-align: center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+}
+.yukari img{
+	width: 10%;
+	position:fixed;
+	bottom: 0px;
+	right: 0px;
 }
