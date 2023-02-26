@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+.menu{
+	background:#262626;
+	height: 969px;
+	width: 20%;
+	float: left;
+}
+.menusag{
+	background:#111111;
+	height: 969px;
+	width: 100%;
+}
+.sari img{
+	height: auto;
+	width: 65%;
+	margin-left: 16%;
+}
+.sari h3{
+	color: white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	margin-top: -5%;
+	height: auto;
+	width: auto;
+	flex-grow: 1;
+	clear: both;
+	
+}
+.k1{
+	background: #0015FF;
+	width: 50%;
+	height: 500px;
+	margin-left: 35%;
+	margin-right: auto;
+	position: absolute;
+	top: 6%;
+}
+.k1 h3{
+	color: rgb(255, 174, 0);
+	text-align: center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.k1 p{
+	text-align: justify;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 180%;
+	clear: both;
+}
+@media (max-width:768px){
+	.k1 p{
+		font-size: 50px;
+}
+}
