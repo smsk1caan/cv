@@ -7,17 +7,22 @@ body{
     margin: 0;
 	padding: 0;
 	height: 100vh;
+	background: #111111
 }
 .menu{
 	background:#262626;
-	height: 969px;
+	height: 100vh;
 	width: 20%;
 	float: left;
 }
 .menusag{
-	background:#111111;
-	height: 969px;
-	width: 100%;
+	background: #0015FF;
+	width: 50%;
+	height: 500px;
+	margin-left: 35%;
+	margin-right: auto;
+	position: absolute;
+	top: 6%;
 }
 .sari img{
 	height: auto;
@@ -36,13 +41,7 @@ body{
 	
 }
 .k1{
-	background: #0015FF;
-	width: 50%;
-	height: 500px;
-	margin-left: 35%;
-	margin-right: auto;
-	position: absolute;
-	top: 6%;
+
 }
 .k1 h3{
 	color: rgb(255, 174, 0);
@@ -57,6 +56,6 @@ body{
 }
 @media (max-width:768px){
 	.k1 p{
-		font-size: 50px;
-}
+		font-size: 15px;
+	}
 }
